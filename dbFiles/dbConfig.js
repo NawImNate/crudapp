@@ -9,7 +9,7 @@ config = {
     enableArithAbort: true,
     instantcename: "SQLEXPRESS",
   },
-  port: 1433,
+  port: 3306,
 };
 
 module.exports = config;
