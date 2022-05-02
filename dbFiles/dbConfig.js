@@ -5,11 +5,11 @@ config = {
   database: "sql_tutorial",
   options: {
     trustServerCertificate: true,
-    trustedConnection: true,
+    trustedConnection: false,
     enableArithAbort: true,
-    instantcename: "SQLEXPRESS",
+    instancename: "SQLEXPRESS",
   },
-  port: 3306,
+  port: 1433,
 };
 
 module.exports = config;
